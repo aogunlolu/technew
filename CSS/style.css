@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.top-area{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.527);
+    font-size: 15px;
+    padding: 20px 170px;
+    
+}
+.phone{
+    display: flex;
+    
+}
+.phone p{
+    margin-left: 10px;
+}
+
+.address{
+    display: flex;
+}
+.address p{
+    margin-left: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(6, 3, 20);
+    color: white;
+    padding: 20px 170px;
+    align-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+ul > a{
+    text-decoration: none;
+    font-size: 13px ;
+    text-transform: uppercase;
+    margin-right: 30px;
+    font-weight: 600;
+    color: white;
+    
+}
+
+header h2{
+    font-size: 40px;
+    font-family:serif;
+}
+nav{
+    padding-top: 20px;
+}
+    
+header .icon{
+    display: none;
+}
+.section-1{
+    background-color: rgba(207, 11, 109, 0.787);
+    color: white;
+    height: 570px;
+    background-image:linear-gradient(to right, rgba(114, 7, 82, 0.966), rgba(26, 6, 6, 0.897)), url(../ASSET/man\ with\ laptop.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    line-height: 70px;
+    padding-top: 150px;
+ 
+}
+.section-1 p{
+    font-size: 25px;
+    
+    
+}
+.section-1 h1{
+    font-size: 60px;
+
+}
+.section-1 a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+    padding: 13px 35px;
+    border-radius: 3px;
+    font-size: 15px;
+     
+}
+.bntf{
+    background-color: rgba(218, 27, 122, 0.89);
+    
+}
+.bntf:hover, .bntff:hover{
+    background-color: rgba(46, 41, 44, 0.89);
+}
+
+.bntff{
+    /* background-color: transparent; */
+    border: 1px solid white;
+
+
+}
+.bntff:hover{
+    border: none;
+
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 170px;
+    
+}
+.about-l, .about-r{
+    width: 48%;
+
+}
+.about-contact{
+    display: flex;
+    background-color: rgb(6, 3, 20);
+    color: white; 
+    padding: 40px;
+    margin: 30px 0px;
+    justify-content: center;
+    
+}
+.mobile-phone{
+    width: 80px;
+}
+
+.about-contactH{
+    font-weight: 600;
+    line-height: 35px;
+    font-size: 13px;
+}
+
+.about-r p{
+    line-height: 22px;
+     
+}
+span{
+    background-color: rgba(233, 17, 125, 0.924);
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.about-r h1{
+    line-height: 100px;
+    font-size: 40px;
+    color: rgba(233, 17, 125, 0.924);
+}
+.about-r{
+    margin-top: 30px;
+}
+.services{
+    background-color: rgb(6, 3, 20);
+    color: white;
+    padding: 120px 170px;
+}
+.box-container1{
+    display: flex;
+    margin: 50px 30px 30px 0; 
+   
+}
+.box-container1 h2{
+    padding-bottom: 15px;
+}
+.box-1{
+    background-color: rgb(32, 31, 31);
+    padding: 70px 50px;
+    margin-left: 30px;
+}
+.box-2{
+    background-color: rgb(220, 20, 120);
+    padding: 70px 50px;
+    margin-left: 30px;
+}
+
+.box-container2{
+    display: flex;
+    margin: 10px 30px 30px 0;
+}
+.box-container2 h2{
+    padding-bottom: 15px;
+}
+.fa-folder-open{
+   font-size: 50px;
+   color:rgb(220, 20, 120);
+   padding-bottom: 15px;
+}
+
+.fa-laptop{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.fa-file-alt{
+    font-size: 50px;
+    color:rgb(220, 20, 120);
+    padding-bottom: 15px;
+}
+.fa-globe{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.fa-desktop{
+    font-size: 50px;
+    color:rgb(220, 20, 120);
+    padding-bottom: 15px;
+}
+.box-container2 .fa-file-alt{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 15px;
+}
+.portfolio{
+    padding: 130px 150px;
+}
+.port{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 80px;
+
+}
+.port h3{
+    flex: 2;
+}
+.divider{
+    width: 30px;
+    height: 2px;
+    background-color: rgb(220, 20, 120);
+    margin-right: 30rem;
+}
+.portfolio-link1{
+    display: flex;
+}
+.portfolio a {
+    color: rgba(230, 25, 138, 0.883);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+.portfolio h1{
+    margin: 30px 0px;
+}
+.learnfast, .joygate, .rappid{
+    width: 35%;
+    margin: 15px 0px;
+    margin-left: 25px;
+    text-align: center;
+    line-height: 30px;
+
+
+}
+.portfolio-link2{
+    display: flex;
+}
+.learnfast:hover, .joygate:hover, .rappid:hover{
+    box-shadow:15px 15px 10px 5px silver;
+    
+}
+.testimonial{
+    padding: 150px 170px;
+    background-color: rgb(246, 37, 135);
+    color: white;
+  
+}
+.testimonial >p{
+    font-size: 40px;
+}
+.testimonial-box >img{
+    border-radius: 100%;
+    border: 4px solid white;
+    margin-right: 20px;
+    
+}
+.testimonial-box{
+    display: flex;
+    padding: 40px 0px;
+    align-items: center;  
+    
+}
+.testimonial-box h5{
+    margin-top: 10px;
+    
+}
+.success-rate{
+    background-image: linear-gradient(rgba(44, 43, 43, 0.924), rgba(8, 7, 7, 0.89)), url(../ASSET/man\ with\ laptop.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 170px;
+    color: white;
+    
+}
+.success-rate li{
+    list-style: none;
+    color:  rgba(218, 27, 122, 0.89);
+    font-size: 65px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.success-rate ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-right: 100px;
+    
+}
+.project{
+    background-image:linear-gradient(to right, rgba(87, 78, 83, 0.746), rgba(51, 32, 32, 0.897)), url(../ASSET/man\ with\ laptop.jpeg);
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top:120px ;
+    color: white;
+
+}
+.project h1{
+    font-size: 50px;
+}
+.project-nav{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 10px;
+    
+}
+.project-nav a{
+    text-decoration: none;
+    color: white;
+    
+}
+.clients-logo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(218, 27, 123, 0.972);
+    padding: 70px 150px;
+    color: white;
+    
+}
+.contact p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.contact span{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin-right: 100px;
+    
+}
+.contact span:hover{
+    background-color: black;
+    color: white;
+    
+}
+.contact a{
+    text-decoration: none;
+}
+.Training{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px;
+    line-height: 3;
+    background-color: rgb(6, 3, 20);
+}
+.training-box{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+.training-box h3{
+    color: white;
+    font-size: 20px;
+    
+}
+.training-box li{
+    color:rgba(218, 27, 123, 0.972) ;
+    
+}
+.training-box a{
+    text-decoration: none;
+    color: rgba(173, 167, 155, 0.623);
+    
+}
+footer{
+    background-color:  rgb(6, 3, 20);
+    color: white;
+    padding: 70px 30px;
+    border-top: 1px solid rgba(173, 167, 155, 0.623);
+}
+footer p > a{
+    text-decoration: none;
+    color:rgba(218, 27, 123, 0.972);
+}
+
+@media screen and (max-width: 950px){
+    .top-area{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        font-size: 12px;
+        padding: 10px;        
+    }
+    .phone{
+        margin-bottom: 10px;
+    }
+    header{
+        padding: 20px 20px 20px 50px;
+   
+    }
+    header h2{
+        font-size: 50px;
+
+    }
+   
+    ul > a{
+        display: none;
+    }
+    header .icon{
+        display: block;
+        font-size: 18px;
+    }
+    header .icon span{
+        margin-left: 12px;
+        padding: 15px;
+
+    }
+    .section-1{
+        padding: auto 10px;
+    }
+    .section-1 p{
+        font-size: 20px;  
+       
+    }
+    .section-1 p.section-client{
+        line-height: 30px; 
+        margin-bottom: 25px;    
+    }
+    .section-1 h1{
+        font-size: 30px;
+    
+    }
+    .about{
+        flex-direction: column;
+        padding: 20px; 
+        margin-top: 40px;    
+        
+    }
+    .about-l, .about-r{
+        width: 100%;
+    
+    }
+    .services{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .box-container1, .box-container2{
+        flex-direction: column; 
+    
+    }
+    .services{
+        padding: 50px 20px;
+    }
+    .box-1, .box-2{
+        margin-bottom: 15px;
+    }
+    .divider{
+        display: none;
+    }
+    .portfolio{
+        padding: 50px 20px;
+    }
+    .portfolio-link1, .portfolio-link2{
+        display: flex;
+        flex-direction: column;
+    }
+    .learnfast, .joygate, .rappid{
+        width: 100%;
+   
+    }
+    .testimonial{
+        padding: 50px 30px;
+  
+    }
+    .testimonial >p{
+        font-size: 20px;
+    }
+    .success-rate ul{
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+        align-items: center;   
+        
+    }
+    .clients-logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        
+    }
+    .clients-logo img{
+        padding-top: 30px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding: 70px 30px;
+        color: white;
+        
+    }
+    .contact p{
+        padding-bottom: 50px;
+    }
+    .Training{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+} 
